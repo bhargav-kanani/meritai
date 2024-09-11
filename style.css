@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+  font-style: normal;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.main-container {
+    background-color: #ffffff;
+    display: flex;
+    height: 100vh;
+}
+.side-panel {
+    background: #0658f6;
+    width: 23.3vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.side-panel-container-up{
+    margin: 20px;
+    
+}
+.side-panel-container-down{
+    margin: 20px;
+    
+}
+
+.logo {
+    color: #ffffff;
+    text-align: center;
+    margin: 20px;
+    font-size: 26px;
+}
+
+ul li a{
+    color: #ffffff;
+    font-size: 14px;
+    
+}
+ul li {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    position: relative;
+    width: -webkit-fill-available;
+    height: 160px;
+    padding: 19px;
+    background-color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: scroll;
+}
+
+.main-text1{
+    letter-spacing: 1px;
+    font-size: 20px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    flex-direction: row;
+    font-weight: 500;
+}
+
+.main-row{
+    display: flex;
+    margin: 20px;
+    grid-column-gap: 20px;
+   
+}
+.profile-card {
+    width: 22vw;
+    min-width: 285px;
+    height: 282px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 20px;
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.profile-img {
+    height: 143px;
+    border-radius: 8px;
+}
+
+.prfile-name {
+    /* letter-spacing: 0.7px; */
+    font-size: 20px;
+    display: flex;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.profile-des{
+    color: #888686;
+    font-size: 15px;
+    margin-top: 4px;
+}
+.profile-exp{
+    color: #888686;
+    font-size: 15px;
+    margin-top: 4px;
+}
+.profile-lang{
+    color: #888686;
+    font-size: 15px;
+    margin-top: 4px;
+}
+.profile-tag {
+    width: fit-content;
+    padding: 5px;
+    background-color: #e2ecff;
+    color: #0658f6;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 12px;
+    border-radius: 6px;
+}
+.card {
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 5px;
+    width: -webkit-fill-available;
+    min-width: 165px;
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-title {
+    color: #888686;
+    font-size: 15px;
+}
+
+.card-value {
+    color: #0658f6;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.chart-container {
+    margin: 19px;
+    height: 400px;
+    width: -webkit-fill-available;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 8px;
+}
+
+.ref-vid{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    grid-column-gap: 20px;
+   
+}
+
+.reference {
+    width: -webkit-fill-available;
+    height: 350px;
+    /* background-color: aquamarine; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 8px;
+}
+
+
+.video-essay {
+    width: -webkit-fill-available;
+    height: 350px;
+    /* background-color: blueviolet; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 8px;
+
+}
+
+.ref-title{
+    font-size: 20px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.ref-text{
+    text-align: justify;
+    font-size: 12px;
+  
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.vid-title{
+    font-size: 20px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 500;    
+}
+
+.video-frame img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: -webkit-fill-available;
+
+}
